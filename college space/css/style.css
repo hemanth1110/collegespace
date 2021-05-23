@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.index{
+    height: 155vh;
+}
+.bg-container{
+    background-color: purple;
+    display: grid;
+    grid-template-rows: 4vh 42vh;
+    grid-template-columns: 1fr;
+}
+.nav-row{
+    grid-row: 1/2;
+}
+.logo-top{
+    color : yellow ;    
+}
+.nav-font-col{
+    color:white
+}
+.nav-font-col:hover{
+    color: gray;
+    background-color: yellow;
+}
+.logo-top:hover{
+    color: white;
+}
+.exam-quote{
+    margin: auto;
+    height:max-content;
+    color:white;
+    text-align: center;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 70px;
+    grid-row: 2/3;
+}
+@media (max-width:750px){
+    .exam-quote{
+        font-size: 35px;
+    }
+    .nav-font-col{
+        background-color: purple;
+    }
+}
+.upcoming-features{
+    margin-top: 5vh;
+    display: grid;
+    grid-template: repeat(4,25vh)/repeat(1,1fr);
+}
+.line-banner{
+    padding: 0 10vw;
+}
+.logo-left{
+    float: left;
+    height: 25vh;
+    width: 14vw;
+}
+.para-right{
+    text-align: center;
+    margin-top: 5vh;
+    margin-left: 15vw ;
+    font-size: 20px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.logo-right{
+    float: right;
+    height: 25vh;
+    width: 14vw;
+}
+.para-left{
+    /* color: blue; */
+    text-align: center;
+    margin-top: 5vh;
+    margin-right: 15vw ;
+    font-size: 20px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.foot{
+    display: grid;
+    grid-template: repeat(1,6vh)/repeat(1,1fr);
+    font-family: 'Pattaya', sans-serif;
+    background-color: purple;
+}
+.copyright{
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+@media (max-width:500px) {
+    .para-left,.para-right{
+        font-size: 15px;
+    }
+    .logo-left,.logo-right{
+        width: 30vw;
+    }
+    .copyright{
+        font-size: 15px;
+    }
+}
+#navbarDropdown{
+    color:white;
+}
