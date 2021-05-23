@@ -29,7 +29,7 @@
  @media (max-width: 1000px) {
     .videosf {
       display: grid;
-      grid-template-rows: 60vh 32vh;
+      grid-template-rows: 40vh 52vh;
       grid-template-columns:1fr;
     }
     .subject-list,.select-subject{
